@@ -1,0 +1,34 @@
+baseURL         = "http://0.0.0.0:1313/"
+RelativeURLs    = false
+CanonifyURLs    = true
+enableRobotsTXT = true
+enableEmoji     = true
+title = "Jasa Wibucode"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+      hardWraps = true
+      unsafe    = true
+      xhtml     = true
+  [markup.highlight]
+    lineNumbersInTable = true
+    tabWidth    = 4
+  [markup.tableOfContents]
+    startLevel  = 3
+    endLevel    = 5
+    ordered     = true
+
+[params]
+    perusahaan = "Jasa Wibucode"
+    deskripsi  = "Jasa pembuatan website profesional."
+
+    # SEO
+    # keywordSEO = deskripsi + keywordSEO
+    keywordSEO  = "wibucode, landing, page"
+
+    # Sosmed Footer
+    # Hapus value untuk hapus dari footer
+    instagram = "https://instagram.com/username"
+    facebook  = "https://www.facebook.com/username"
+    whatsapp  = "https://wa.me/6281234567890"

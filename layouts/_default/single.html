@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <main style="padding-top:70px;" class="flex">
+        <div class="container">
+            <div class="desc m-5" data-aos="zoom-in" data-aos-delay="300">
+              <div class="post-desc">
+                <h2>{{ .Title }}</h2>
+              </div>
+              <div class="post-text mt-4">
+                {{ replace .Content "<p></p>" "" | safeHTML }}
+              </div>
+            </div>
+        </div>
+    </main>
+
+{{ end }}
+

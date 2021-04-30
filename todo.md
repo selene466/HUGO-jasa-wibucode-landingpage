@@ -1,7 +1,7 @@
 ### Todo ###
 
 Phase 1
-- [ ] Slice
+- [x] Slice
     - [x] Header
     - [x] Footer
     - [x] Home
