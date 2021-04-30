@@ -1,4 +1,4 @@
-baseURL         = "http://0.0.0.0:1313/"
+baseURL         = "https://loving-mclean-0521db.netlify.app/"
 RelativeURLs    = false
 CanonifyURLs    = true
 enableRobotsTXT = true
