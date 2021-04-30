@@ -1,6 +1,8 @@
 {{ define "main" }}
-    <main style="padding-top:70px;" class="flex">
-        <div class="container">
+    <div style="min-height:300px; padding-top:90px; background: #d8d8ff; display: block">
+    </div>
+    <main>
+        <div class="container bg-white pt-1 rounded" style="margin-top: -180px">
             <div class="desc m-5" data-aos="zoom-in" data-aos-delay="300">
               <div class="post-desc">
                 <h2>{{ .Title }}</h2>
@@ -11,6 +13,28 @@
             </div>
         </div>
     </main>
+    <style>
+.post-desc h2 {
+  display: inline-block;
+  position: relative;
+}
+
+.post-desc h2:after, .post-text h1:after, .post-text h2:after, .post-text h3:after, .post-text h4:after, .post-text h5:after, .post-text h6:after {
+    content:'';
+    display:block;
+    margin-top: 5px;
+    position: absolute;
+    border-image:linear-gradient(to right, transparent, #224, transparent) 1;
+    border-bottom:4px solid;
+    width: 100%;
+}
+
+.post-text h1, .post-text h2, .post-text h3, .post-text h4, .post-text h5, .post-text h6 {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+    </style>
 
 {{ end }}
 
