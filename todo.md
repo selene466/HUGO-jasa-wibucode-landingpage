@@ -15,7 +15,14 @@ Phase 3
 - [ ] Testing
 
 Additional changes
+#1
 - [x] Page, background, top box
 - [x] Page, header underline
 - [ ] /!\ Transpile JS, older browser support. NOT FIXABLE, bootstrap 5 drop support for older browser. Webview Android 5.1 cant work, use Google Chrome instead.
 - [x] SVG nav toggle X, not SVG work
+
+#2
+- [x] Header nav, mobile button -> SVG, not SVG, PNG
+- [x] Page, margin X, optional, PC OK, Android none
+- [x] Page, top bg color = "Solusi bisnis digital" homepage
+- [ ] Page, need thumbnail
