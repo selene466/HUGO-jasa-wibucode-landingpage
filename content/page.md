@@ -1,33 +1,34 @@
 ---
-title   : "Page"
-date    : 2021-04-30T13:02:55+07:00
-draft   : false
-url     : "/page"
+title    : "Page"
+date     : 2021-04-30T13:02:55+07:00
+draft    : false
+thumbnail: "laptop.jpg"
+url      : "/page"
 ---
 
 Elit dolor illo ut quam porro natus, dignissimos. Ex architecto dignissimos accusantium dolor perferendis quasi, culpa? Veritatis eum consequatur similique consectetur ex! Quisquam incidunt quo possimus recusandae distinctio illo? Animi architecto excepturi cumque laboriosam quasi Sequi totam aut sunt iusto praesentium? Veniam iure sapiente provident eum recusandae, ipsa Quibusdam quis?
 
-# Heading 6
+# Heading 1
 
 &nbsp;
 
-## Heading 5
+## Heading 2
 
 &nbsp;
 
-### Heading 4
+### Heading 3
 
 &nbsp;
 
-#### Heading 3
+#### Heading 4
 
 &nbsp;
 
-##### Heading 2
+##### Heading 5
 
 &nbsp;
 
-###### Heading 1
+###### Heading 6
 
 &nbsp;
 

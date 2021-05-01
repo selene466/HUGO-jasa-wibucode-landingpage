@@ -1,13 +1,16 @@
 {{ define "main" }}
-    <div style="min-height:480px; padding-top:90px; background: #708bed; display: block">
+    <div style="min-height:420px; padding-top:90px; background: #708bed; display: block">
     </div>
-    <main>
-        <div class="container bg-white pt-1 rounded" style="margin-top: -350px">
-            <div class="desc m-5" data-aos="zoom-in" data-aos-delay="300">
-              <div class="post-desc">
+    <main class="container">
+        <div class="card rounded" style="margin-top: -290px">
+            {{ with .Params.thumbnail }}
+            <img src="/assets/images/{{ . }}" class="card-img-top" alt="thumbnail">
+            {{ end }}
+            <div class="desc card-body m-0 text-left" data-aos="zoom-in" data-aos-delay="300">
+              <div class="post-desc card-title">
                 <h2>{{ .Title }}</h2>
               </div>
-              <div class="post-text mt-4">
+              <div class="post-text card-text mt-4">
                 {{ replace .Content "<p></p>" "" | safeHTML }}
               </div>
             </div>
@@ -33,6 +36,10 @@
   display: inline-block;
   position: relative;
   margin-bottom: 20px;
+}
+
+.card {
+  text-align: left !important;
 }
     </style>
 
