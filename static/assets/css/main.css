@@ -3,12 +3,16 @@
       display: none;
    }
 
-   .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
-      display: inline;
+   .navbar-toggler:not(.collapsed) .navbar-menu-fa {
+      display: none;
    }
 
-   .navbar-toggler-icon {
-      background-image: url('../images/bar.png') !important;
-      transform: scale(1.7);
+   .close-icon, .navbar-menu-fa {
+     font-size:32px;
    }
+
+   /* .navbar-toggler-icon { */
+   /*    background-image: url('../images/menu.svg') !important; */
+   /*    transform: scale(1.7); */
+   /* } */
 

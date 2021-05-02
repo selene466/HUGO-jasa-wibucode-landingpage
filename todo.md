@@ -13,6 +13,8 @@ Phase 2
 Phase 3
 - [x] Config
 - [ ] Testing
+- [ ] Clean up
+- [ ] Release
 
 Additional changes
 #1
@@ -25,4 +27,9 @@ Additional changes
 - [x] Header nav, mobile button -> SVG, not SVG, PNG
 - [x] Page, margin X, optional, PC OK, Android none
 - [x] Page, top bg color = "Solusi bisnis digital" homepage
-- [ ] Page, need thumbnail
+- [x] Page, need thumbnail
+
+#3
+- [x] Icon nav, fontawesome
+- [x] Page, header bg #fafafa
+- [x] Page, card shadow

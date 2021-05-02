@@ -26,6 +26,10 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/main.css">
 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
     <!-- SEO -->
     <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}{{ substr .RelPermalink 1  }}"/>
     <meta property="og:title" content="{{ if ne .Title .Site.Title }}{{ .Title | emojify }}{{ else }}{{ .Site.Title }}{{ end }}"/>
@@ -92,9 +96,17 @@
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <img src="{{ .Site.BaseURL }}assets/images/bar.png" class="bar-btn navbar-toggler-icon" alt=""> -->
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"> -->
+                <!--   <i class="fas fa-bars"></i> -->
+                <!-- </span> -->
+                <span class="navbar-menu-fa">
+                  <i class="fas fa-bars"></i>
+                </span>
                 <!-- <div class="close-icon py-1">✖</div> -->
-                <div class="close-icon text-center"><img src="{{ .Site.BaseURL }}assets/images/close.png" alt="close"></div>
+                <!-- <div class="close-icon text-center"><img src="{{ .Site.BaseURL }}assets/images/close.svg" alt="close"></div> -->
+                <div class="close-icon text-center">
+                  <i class="fas fa-times"></i>
+                </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
