@@ -2,7 +2,7 @@
     <div style="min-height:420px; padding-top:90px; background: #708bed; display: block">
     </div>
     <main class="container">
-        <div class="card" style="margin-top: -290px">
+        <div class="card rounded-0 rounded-top" style="margin-top: -290px">
             {{ with .Params.thumbnail }}
             <img src="/assets/images/{{ . }}" class="card-img-top" alt="thumbnail">
             {{ end }}
@@ -41,7 +41,7 @@
 
 .card {
   text-align: left !important;
-  box-shadow: 22px -8px 20px -20px rgba(0, 0, 0, 0.25), -22px -8px 20px -20px rgba(0, 0, 0, 0.25);
+  box-shadow: 22px -8px 20px -16px rgba(0, 0, 0, 0.25), -22px -8px 20px -16px rgba(0, 0, 0, 0.25);
 }
 .clear {
   position:absolute;
