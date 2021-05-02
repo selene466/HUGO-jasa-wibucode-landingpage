@@ -1,10 +1,12 @@
-baseURL         = "https://loving-mclean-0521db.netlify.app/"
-#baseURL         = "http://0.0.0.0:1313/"
-#baseURL         = "http://0.0.0.0:8001/"
+# Ganti baseURL sesuai alamat website dengan trailing slash
+#baseURL         = "https://loving-mclean-0521db.netlify.app/"
+baseURL         = "http://0.0.0.0:1313/"
 RelativeURLs    = false
 CanonifyURLs    = true
 enableRobotsTXT = true
 enableEmoji     = true
+
+# Home page title
 title = "Jasa Wibucode"
 
 [markup]
@@ -16,10 +18,6 @@ title = "Jasa Wibucode"
   [markup.highlight]
     lineNumbersInTable = true
     tabWidth    = 4
-  [markup.tableOfContents]
-    startLevel  = 3
-    endLevel    = 5
-    ordered     = true
 
 [params]
     perusahaan = "Jasa Wibucode"

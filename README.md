@@ -3,6 +3,8 @@ Kolaborasi landing page
 
 Template HUGO Site
 
+Demo [https://loving-mclean-0521db.netlify.app/](https://loving-mclean-0521db.netlify.app/)
+
 Credits:
 - [Andre Rio](https://github.com/andregans)
 - [Irvan Moses](https://github.com/irvanmoses)
