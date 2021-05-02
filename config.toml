@@ -1,6 +1,6 @@
 # Ganti baseURL sesuai alamat website dengan trailing slash
-#baseURL         = "https://loving-mclean-0521db.netlify.app/"
-baseURL         = "http://0.0.0.0:1313/"
+baseURL         = "https://loving-mclean-0521db.netlify.app/"
+#baseURL         = "http://0.0.0.0:1313/"
 RelativeURLs    = false
 CanonifyURLs    = true
 enableRobotsTXT = true
