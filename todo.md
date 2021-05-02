@@ -12,9 +12,9 @@ Phase 2
 
 Phase 3
 - [x] Config
-- [ ] Testing
-- [ ] Clean up
-- [ ] Release
+- [x] Testing
+- [x] Clean up
+- [ ] Release, no release
 
 Additional changes
 #1
@@ -31,5 +31,5 @@ Additional changes
 
 #3
 - [x] Icon nav, fontawesome
-- [x] Page, header bg #fafafa, revert to #709bed, #fafafa for body
+- [x] Page, header bg #fafafa, revert to #708bed, #fafafa for body, revert back
 - [x] Page, card shadow

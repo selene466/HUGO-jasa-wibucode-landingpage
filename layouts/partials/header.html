@@ -65,28 +65,24 @@
         "name": "{{ .Title }}",
         "description": "{{ .Description | emojify }}",
         "alternateName": "{{ with .Summary }}{{ . }}{{ end }}{{ with .Site.Params.siteAbout }}{{ . }}{{ end }}",
-        "logo": "{{ .Site.BaseURL }}logo.png",
+        "logo": "{{ .Site.BaseURL }}assets/images/logo.png",
         "image": {
           "@type": "imageObject",
-          "url": "{{ .Site.BaseURL }}logo.png"
+          "url": "{{ .Site.BaseURL }}assets/images/logo.png"
         },
         "publisher": {
           "@type": "Organization",
           "name": "{{ .Site.Params.perusahaan }}",
           "logo": {
             "@type": "imageObject",
-            "url": "{{ .Site.BaseURL }}logo.png"
+            "url": "{{ .Site.BaseURL }}assets/images/logo.png"
           }
         },
       }
     </script>
 </head>
 
-{{- if eq .Kind "page" }}
-<body style="background: #fafafa;">
-{{ else }}
 <body>
-{{ end -}}
 
     {{ if eq .Kind "page" }}
     <nav class="navbar navbar-expand-md navbar-light bg-white py-4">
@@ -99,15 +95,9 @@
                 <span class="logo-text">Jasa <br> Wibucode.</span>
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <img src="{{ .Site.BaseURL }}assets/images/bar.png" class="bar-btn navbar-toggler-icon" alt=""> -->
-                <!-- <span class="navbar-toggler-icon"> -->
-                <!--   <i class="fas fa-bars"></i> -->
-                <!-- </span> -->
                 <span class="navbar-menu-fa">
                   <i class="fas fa-bars"></i>
                 </span>
-                <!-- <div class="close-icon py-1">✖</div> -->
-                <!-- <div class="close-icon text-center"><img src="{{ .Site.BaseURL }}assets/images/close.svg" alt="close"></div> -->
                 <div class="close-icon text-center">
                   <i class="fas fa-times"></i>
                 </div>
