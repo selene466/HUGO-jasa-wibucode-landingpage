@@ -31,5 +31,5 @@ Additional changes
 
 #3
 - [x] Icon nav, fontawesome
-- [x] Page, header bg #fafafa
+- [x] Page, header bg #fafafa, revert to #709bed, #fafafa for body
 - [x] Page, card shadow

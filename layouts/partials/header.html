@@ -82,7 +82,11 @@
     </script>
 </head>
 
+{{- if eq .Kind "page" }}
+<body style="background: #fafafa;">
+{{ else }}
 <body>
+{{ end -}}
 
     {{ if eq .Kind "page" }}
     <nav class="navbar navbar-expand-md navbar-light bg-white py-4">
