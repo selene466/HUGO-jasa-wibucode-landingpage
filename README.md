@@ -1,6 +1,8 @@
 Kolaborasi landing page
 =======================
 
+/!\ Abandoned, moving to team repo.
+
 Template HUGO Site
 
 Demo [https://loving-mclean-0521db.netlify.app/](https://loving-mclean-0521db.netlify.app/)
