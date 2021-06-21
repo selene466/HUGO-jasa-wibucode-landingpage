@@ -1,6 +1,5 @@
 +++
 date = 2021-04-30T06:02:55Z
-draft = true
 thumbnail = "laptop.jpg"
 title = "forestry-test"
 url = "/forestry-test"
